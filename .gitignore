@@ -1,0 +1,6 @@
+# These are local files that are specific to each developers settings. 
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
