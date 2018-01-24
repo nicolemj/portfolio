@@ -170,7 +170,11 @@ body {
 .contact-form, .contact-add-box {
   background-color: white;
   margin-bottom: 30px;
-  padding: 30px;
+  padding: 15px;
+  width: 100%;
+}
+.contact-form {
+  margin-left: -10%;
 }
 .contact-section h4 {
   font-size: 24px;
@@ -224,6 +228,8 @@ body {
 .contact-add-box i { 
   color: #af0808;
   padding-right:10px;
+  
+  
 }
 
 
@@ -247,10 +253,16 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 80px;
   word-break: break-all;
 }
 
+h3 {
+  color: black;
+}
+p {
+  color: black;
+}
 .row {
   margin: 8px -16px;
 }
@@ -328,7 +340,7 @@ color: #54697E;
 font-size: 18px;
 font-weight: 600;
 line-height: 27px;
-padding: 40px 0 10px;
+padding: 5px 0 10px;
 text-transform: uppercase;
 }
 .footer ul {
