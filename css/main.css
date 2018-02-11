@@ -95,6 +95,11 @@ body {
   }
 }
 
+/* Developer */
+h1 {
+  font-size: 50px;
+}
+
 
 /*  Cover */
 
@@ -152,6 +157,10 @@ body {
 /* ------------------------------
 Portfolio Section
 --------------------------------*/
+
+i {
+  font-size:  120px;
+}
 .portfolio {
   margin-left: 5%;
 }
