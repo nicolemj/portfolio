@@ -371,51 +371,59 @@ textarea.form-control {
   width: 80vw;
   height: 69vh;
   /* background-color: purple; */
-  margin-left: 10%;
+  /* margin-left: 10%; */
 }
 
 .overlay {
-  background-color: white;
-  width: 30vw;
-  margin-left: 5%;
+  background-color: gray;
+  width: 110vw;
+  margin-left: -5%;
   height: 35vw;
   /* z-index: -1; */
-  opacity: 0.8;
+  /* opacity: 0.9; */
   /* margin-top: 10%; */
 }
 .col-2 {
   height: 55vh;
-
   width: 30vw;
-  margin-left: 1%;
+  margin-left: 15%;
   margin-top: 5%;
 }
 
-.overlay1 {
+/* .overlay1 {
   background-color: white;
-  width: 30vw;
+  width: 100vw;
   margin-left: 50%;
   margin-top: -43.7%;
   height: 35vw;
   z-index: -1;
   opacity: 0.8;
-}
+} */
 p {
   text-align: left;
   color: black;
+  letter-spacing: 2px;
+  text-align: center;
+}
+p1 {
+  text-align: center;
+  font-size: 30px;
+  color: hotpink;
+  
+
 }
 h2 {
   text-align: center;
-  color: black;
+  color:hotpink;
 }
 
 .col-3 {
   width: 20vw;
   height: 55vh;
   /* background-color:pink; */
-  margin-left: 20%;
-  margin-top: -39%;
-  padding-top: 5%;
+  margin-left: 55%;
+  margin-top: -25%;
+  /* padding-top: 5%; */
 }
 
 
