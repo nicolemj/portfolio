@@ -124,8 +124,6 @@ h1 {
   .masthead {
     position: fixed;
     top: 0;
-    linear-gradient: rgba(0, 0, 0, 0.5);
-
     width: 100%;
 
   }
@@ -145,13 +143,6 @@ h1 {
   }
 }
 
-@media (min-width: 992px) {
-  .masthead,
-  .mastfoot,
-  .cover-container {
-   
-  }
-}
 
 /* ------------------------------
 Portfolio Section
