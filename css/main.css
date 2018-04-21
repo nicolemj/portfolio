@@ -152,9 +152,7 @@ i {
   font-size: 120px;
   margin: 2%;
 }
-.portfolio {
-  margin-left: 5%;
-}
+
 * {
   box-sizing: border-box;
 }
@@ -184,14 +182,38 @@ p {
 /* Add padding BETWEEN each column */
 .row,
 .row > .column {
-  padding: 8px;
+  padding: 2%;
 }
 
 .column {
   float: left;
   width: 30%;
+  padding: 8%;
+ 
+  
+}
 
-  /* margin-top: 5%; */
+.content {
+  padding: 8%;
+  background-color: white;
+  height: 40vh;
+  
+}
+
+.container-fluid {
+  width: 100%;
+  padding-left: 8%;
+}
+
+.card1 {
+  float: left;
+  width: 50%;
+}
+
+.card2 {
+  float: right;
+  width: 50%;
+  
 }
 
 /* Clear floats after rows */
@@ -202,13 +224,11 @@ p {
 }
 
 /* Content */
-.content {
-  background-color: white;
-  padding: 10px;
-}
+
 
 img {
   max-width: 100%;
+  
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -225,6 +245,9 @@ img {
   }
 }
 
+
+
+
 /* Contact form */
 .contact-section {
   background-color: grey;
@@ -234,12 +257,13 @@ h1 {
   margin: 0 0 35px 0;
   letter-spacing: 1px;
 }
+ .me {
+   float: left;
+ }
+ .bio {
+   font-size: 1vw;
+ }
 
-p {
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-}
 a:hover,
 a:focus {
   text-decoration: none;
@@ -330,85 +354,18 @@ textarea.form-control {
   padding-bottom: 10px;
 }
 
-/* End of footer */
-#section1 {
-  padding-top: 50px;
-  height: 500px;
-  color: #fff;
-}
-#section2 {
-  padding-top: 50px;
-  height: 800px;
-  color: #fff;
-}
 
 /* About me */
-#section3 {
-  padding-top: 50px;
-  color: #fff;
-}
-#section41 {
-  padding-top: 50px;
-  height: 500px;
-  color: #fff;
-}
-
-/* Grid */
-.col-1 {
-  /* width: 80vw; */
-  height: 69vh;
-  /* background-color: purple; */
-  /* margin-left: 10%; */
-}
-
-.overlay {
-  background-color: gray;
-  width: 100vw;
-  margin-left: -5%;
-  height: 35vw;
-  /* z-index: -1; */
-  /* opacity: 0.9; */
-  /* margin-top: 10%; */
-}
-.col-2 {
-  height: 55vh;
-  width: 30vw;
-  margin-left: 15%;
-  margin-top: 5%;
-}
 
 
-p {
-  text-align: left;
-  color: black;
-  letter-spacing: 2px;
-  text-align: center;
-  font-size: 1.5vh;
-}
-/* p1 {
-  text-align: center;
-  font-size: 30px;
-  color: hotpink;
-  
-
-} */
 h2 {
   text-align: center;
   color:hotpink;
 }
 
-.col-3 {
-  width: 25vw;
-  height: 55vh;
-  /* background-color:pink; */
-  margin-left: 55%;
-  margin-top: -25%;
-  /* padding-top: 5%; */
-}
-
-
 
 /* Contact form */
+
 form {
   width: 58.3333333333%;
   margin: 0 auto;
@@ -465,7 +422,7 @@ form .field textarea {
 }
 form .field input[type="text"]#msg,
 form .field textarea#msg {
-  height: 18px;
+  height: 60px;
   resize: none;
   -webkit-transition: all 333ms ease-in-out;
   -moz-transition: all 333ms ease-in-out;
