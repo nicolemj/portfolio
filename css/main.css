@@ -196,7 +196,7 @@ p {
 .content {
   padding: 8%;
   background-color: white;
-  height: 40vh;
+  height: 35vh;
   
 }
 
@@ -290,6 +290,7 @@ textarea.form-control {
   /* width: 100%; */
   border-bottom: 1px solid #cccccc;
   border-top: 1px solid #dddddd;
+  width: 100%;
 }
 
 .footer ul {
@@ -352,6 +353,7 @@ textarea.form-control {
   border-top: 1px solid #dddddd;
   padding-top: 10px;
   padding-bottom: 10px;
+  width: 100%;
 }
 
 
@@ -362,6 +364,33 @@ h2 {
   text-align: center;
   color:hotpink;
 }
+.button {
+  border-radius: 0%;
+  background-color: #FD9638;
+  padding: 4%;
+}
+.button[type="resume"]:hover {
+  background: #313A3D;
+  color: #FD9638;
+}
+.button[type="resume"] {
+  background: #FD9638;
+  color: white;
+  -webkit-appearance: none;
+  border: none;
+  position: relative;
+  padding: 13px 50px;
+  font-size: 1.4em;
+  letter-spacing: 0.1em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  -webkit-transition: all 333ms ease-in-out;
+  -moz-transition: all 333ms ease-in-out;
+  -o-transition: all 333ms ease-in-out;
+  -ms-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+
 
 
 /* Contact form */
@@ -480,4 +509,9 @@ form input[type="submit"]:hover {
 form input[type="submit"]:focus {
   outline: none;
   background: #cd6302;
+}
+
+#section41 {
+  padding-bottom: 3%;
+  width: 100%;
 }
