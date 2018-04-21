@@ -23,6 +23,12 @@ body {
 
 }
 
+hr {
+  width: 10%;
+  font-weight: bold;
+  color: #FD9638;
+    
+}
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
@@ -62,9 +68,7 @@ body {
 .masthead-nav > li {
   display: inline-block;
 }
-.masthead-nav > li + li {
-  /* margin-left: 5%; */
-}
+
 .masthead-nav > li > a {
   padding-right: 5;
   padding-left: 5;
@@ -363,7 +367,7 @@ textarea.form-control {
 
 h2 {
   text-align: center;
-  color:hotpink;
+  color: #FD9638;
 }
 .button {
   border-radius: 0%;
