@@ -26,7 +26,16 @@ body {
 hr {
   width: 10%;
   font-weight: bold;
-  color: #FD9638;
+  border-color: #FD9638;
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  /* border-style: inset; */
+  border-width: 4px;
+
+
     
 }
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -357,7 +366,7 @@ textarea.form-control {
   background: #e3e3e3;
   border-top: 1px solid #dddddd;
   padding-top: 10px;
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
   width: 100%;
 }
 
@@ -367,7 +376,8 @@ textarea.form-control {
 
 h2 {
   text-align: center;
-  color: #FD9638;
+  /* color: #FD9638; */
+  color:black;
 }
 .button {
   border-radius: 0%;
@@ -519,4 +529,17 @@ form input[type="submit"]:focus {
 #section41 {
   padding-bottom: 3%;
   width: 100%;
+}
+
+#about {
+background-image: linear-gradient(
+  rgba(128, 128, 128, 0.9),
+  rgba(128, 128, 128, 0.9)
+),
+url("../img/float.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+width: 100%;
+margin-top: -2%;
 }
