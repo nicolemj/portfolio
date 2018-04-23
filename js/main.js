@@ -1,9 +1,9 @@
 
-jQuery(document).ready(function ($) {
+// jQuery(document).ready(function ($) {
 
-    console.log("Nicole Jeffries.");
+//     console.log("Nicole Jeffries.");
    
-    // Initialize wowjs 
-    new WOW().init();
+//     // Initialize wowjs 
+//     new WOW().init();
 
-});
+// });
